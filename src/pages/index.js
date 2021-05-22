@@ -65,7 +65,6 @@ export const pageQuery = graphql`
       gmail
       id
       linkdin
-      twitter
       location
       description {
         childMarkdownRemark {
