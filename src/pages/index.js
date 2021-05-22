@@ -28,12 +28,6 @@ const IndexPage = ({ data }) => (
       })}
 
     {data.contentfulSiteInformation.menus
-      .filter(item => item === "Service")
-      .map(t => {
-        return <Service data={data.allContentfulService}></Service>;
-      })}
-
-    {data.contentfulSiteInformation.menus
       .filter(item => item === "Blogs")
       .map(t => {
         return <Blogs data={data.allContentfulBlogs}></Blogs>;
