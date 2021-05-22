@@ -64,7 +64,6 @@ export const pageQuery = graphql`
       designation
       gmail
       id
-      instagram
       linkdin
       twitter
       location
