@@ -17,7 +17,7 @@ const IndexPage = ({ data }) => (
   <Layout header="home">
     <SEO
       title={data.contentfulAboutMe.designation}
-      keywords={[`Andrew Blackmore`, `Martech Leader`, `Developer`]}
+      keywords={[`Andrew Blackmore`, `Martech Architect`, `Business Leader`]}
     />
     <Banner data={data.contentfulAboutMe}></Banner>
 
