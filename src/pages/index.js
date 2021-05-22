@@ -28,7 +28,7 @@ const IndexPage = ({ data }) => (
       })}
 
     {data.contentfulSiteInformation.menus
-      .filter(item => item === "Blogs")
+      .filter(item => item === "Blog Articles")
       .map(t => {
         return <Blogs data={data.allContentfulBlogs}></Blogs>;
       })}
